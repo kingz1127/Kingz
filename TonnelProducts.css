@@ -1,0 +1,350 @@
+body{
+    background-color: white;
+}
+.body{
+    background:linear-gradient(rgba(89, 177, 178, 0.614),rgb(89, 177, 178, 0.614));
+    border-radius: 30px;
+    margin: 20px;
+    height: 260px;
+}
+.Ton{
+    display: flex;
+    justify-content: center;
+    column-gap: 240px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+a{
+    text-decoration: none;
+}
+a img{
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+   margin-top: 10px;
+}
+.tonnelh1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-right: -70px;
+    background-color: white;
+    font-size: 3.5em;
+    width: 700px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tonnelh1 a{
+    color: black;
+}
+.tonnelh1 :hover{
+    background-color: rgb(165, 165, 178);
+    width: 700px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+.conlog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+   
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: white;
+}
+.contact a{
+    color: black;
+}
+.contact:hover{
+    color: white;
+    background-color: rgb(165, 165, 178);
+}
+.login{
+    display: flex;
+    justify-content: center;
+}
+.p-home{
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+    margin-top: -20px;
+}
+.p-add{
+    display: flex;
+    justify-content: center;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    column-gap: 2px;
+}
+#searchbox{
+    padding-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   border-radius: 5px;
+   font-size: 1.2em;
+}
+.searchimg{
+    background-color: black;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+.prodhr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.h2prod{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    border-radius: 30px;
+    width: 250px;
+    height: 50px;
+    background-color: rgb(242, 244, 246);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.prodlist{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hpprinters, .canonprinters{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.hp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 350px;
+    height: 350px;
+    background-color: rgb(242, 244, 246);
+}
+.hp img{
+    border-radius: 10px;
+}
+.hptext{
+    display: flex;
+    justify-content: center;
+}
+.hphr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hpp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 60px;
+    border-radius: 20px;
+    background-color: rgb(242, 244, 246);
+}
+.canon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+    background-color: rgb(242, 244, 246);
+}
+.brother{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: rgb(242, 244, 246);
+}
+.hplaptops{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.dell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242, 244, 246);
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+}
+.macbooks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242, 244, 246);
+    height: 30px;
+    width: 110px;
+    border-radius: 20px;
+}
+.hpdrums, .canondrums, .hptoners{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.hpdru{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242, 244, 246);
+    height: 30px;
+    width: 110px;
+    border-radius: 20px;
+}
+.candru{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242, 244, 246);
+    height: 30px;
+    width: 150px;
+    border-radius: 20px;
+}
+.brodru{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242, 244, 246);
+    height: 30px;
+    width: 170px;
+    border-radius: 20px;
+}
+.hpton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242, 244, 246);
+    height: 30px;
+    width: 120px;
+    border-radius: 20px;
+}
+.canton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242, 244, 246);
+    height: 30px;
+    width: 140px;
+    border-radius: 20px;
+}
+.broton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242, 244, 246);
+    height: 30px;
+    width: 160px;
+    border-radius: 20px;
+}
+.hpink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: rgb(242, 244, 246);
+}
+.canink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 120px;
+    border-radius: 20px;
+    background-color: rgb(242, 244, 246);
+}
+.broink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 130px;
+    border-radius: 20px;
+    background-color: rgb(242, 244, 246);
+}
+footer{
+    background-color: black;
+    margin-top: 50px;
+    border-radius: 20px  20px 0px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer{
+    color: white;
+    padding-top: 30px;
+}
+.h2foot{
+    font-size: 1.5em;
+    margin-left: 30px;
+}
+.pfoot{
+    margin-left: 30px;
+}
+.footer1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.h3foot{
+    display: flex;
+    justify-content: center;
+}
+.contactfoot a{
+    color: white;
+}
+.aimgfoot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+}
+.phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social{
+display: flex;
+justify-content: center;
+margin-bottom: 10px;
+}
+.copy{
+    column-gap: 10px;
+}
+.copyfoot{
+    display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1.3em;
+padding-bottom: 30px;
+column-gap: 10px;
+}

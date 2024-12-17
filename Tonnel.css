@@ -1,0 +1,338 @@
+body{
+    background-color: white;
+}
+.body{
+    background:linear-gradient(rgba(89, 177, 178, 0.614),rgb(89, 177, 178, 0.614));
+    border-radius: 30px;
+    margin: 20px;
+    height: 520px;
+}
+.Ton{
+    display: flex;
+    justify-content: center;
+    column-gap: 240px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+a{
+    text-decoration: none;
+}
+a img{
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+   margin-top: 10px;
+}
+.tonnelh1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-right: -70px;
+    background-color: white;
+    font-size: 3.5em;
+    width: 700px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tonnelh1 a{
+    color: black;
+}
+.tonnelh1 :hover{
+    background-color: rgb(165, 165, 178);
+    width: 700px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+}
+.conlog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+   
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: white;
+}
+.contact a{
+    color: black;
+}
+.contact:hover{
+    color: white;
+    background-color: rgb(165, 165, 178);
+}
+.login{
+    display: flex;
+    justify-content: center;
+}
+.p-home{
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+    margin-top: -20px;
+}
+.p-add{
+    display: flex;
+    justify-content: center;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    column-gap: 2px;
+}
+#searchbox{
+    padding-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   border-radius: 5px;
+   font-size: 1.2em;
+}
+.searchimg{
+    background-color: black;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+.tonnellogo{
+    display: flex;
+    justify-content: center;
+}
+.tonnellogo img{
+    background-color: black;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.our{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.prod{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    color: brown;
+    background-color: rgb(242, 244, 246);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.prod a{
+    color: brown;
+}
+.prod:hover{
+    background-color: antiquewhite;
+}
+.product1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    margin-left: 20px;
+}
+.print{
+    display: flex;
+    justify-content: center;
+    column-gap: 80px;
+    color: brown;
+    font-size: 1.2em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.printer1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgb(242, 244, 246);
+    border-radius: 10px;
+    height: 350px;
+    width: 350px;
+}
+.printer1 img{
+    border-radius: 10px;
+}
+.printer3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgb(242, 244, 246);
+    border-radius: 10px;
+    height: 350px;
+    width: 350px;
+}
+.printer3 img{
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.threeD{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hp{
+    color: black;
+    font-size: 0.7em;
+}
+.threeDbro{
+    margin-top: 20px;
+}
+.broDc{
+    color: black;
+    font-size: 0.7em;
+    margin-top: 10px;
+}
+.read{
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(216, 159, 53);
+   
+}
+.read a{
+    color:white;
+}
+.next{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgb(242, 244, 246);
+    height: 350px;
+    width: 200px;
+    border-radius: 10px;
+}
+.gif img{
+    border-radius: 50%;
+}
+ a .click ,.pp{
+    color: green;
+}
+a .next:hover{
+    background-color: burlywood;
+}
+.laptop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-size: 1.3em; */
+    background-color:  rgb(242, 244, 246);
+    border-radius: 10px;
+    height: 350px;
+    width: 350px;
+}
+.laptop img{
+    border-radius: 10px;
+}
+.hpl , .dell, .mac{
+    color: brown;
+    display: flex;
+    justify-content: center;
+}
+.plaptops{
+    font-size: 0.7em;
+}
+.drum1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgb(242, 244, 246);
+    border-radius: 10px;
+    height: 350px;
+    width: 350px;
+}
+.drum1 img{
+    border-radius: 10px;
+}
+.ink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgb(242, 244, 246);
+    border-radius: 10px;
+    height: 350px;
+    width: 350px;
+}
+.ink img{
+    border-radius: 10px;
+}
+.toners{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgb(242, 244, 246);
+    border-radius: 10px;
+    height: 350px;
+    width: 350px;
+}
+.toners img{
+    border-radius: 10px;
+}
+footer{
+    background-color: black;
+    margin-top: 50px;
+    border-radius: 20px  20px 0px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer{
+    color: white;
+    padding-top: 30px;
+}
+.h2foot{
+    font-size: 1.5em;
+    margin-left: 30px;
+}
+.pfoot{
+    margin-left: 30px;
+}
+.footer1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.h3foot{
+    display: flex;
+    justify-content: center;
+}
+.contactfoot a{
+    color: white;
+}
+.aimgfoot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+}
+.phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social{
+display: flex;
+justify-content: center;
+margin-bottom: 10px;
+}
+.copy{
+    column-gap: 10px;
+}
+.copyfoot{
+    display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1.3em;
+padding-bottom: 30px;
+column-gap: 10px;
+}
